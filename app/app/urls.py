@@ -30,4 +30,5 @@ urlpatterns = [
     ),
     path('api/user/', include('user.url')),
     path('api/recipe/', include('recipe.urls')),
+    path('api/random_things_to_do/', include('random_things_to_do.urls')),
 ]
